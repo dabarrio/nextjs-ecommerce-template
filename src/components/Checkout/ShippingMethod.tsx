@@ -54,6 +54,7 @@ const ShippingMethod = () => {
           {METODOS_ENVIO.map(({ id, name, price, image }) => (
             <label
               htmlFor={id}
+              key={id}
               className="flex cursor-pointer select-none items-center gap-3.5"
             >
               <div className="relative">
