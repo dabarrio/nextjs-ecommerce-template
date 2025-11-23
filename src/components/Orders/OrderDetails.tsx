@@ -5,14 +5,14 @@ const OrderDetails = ({ orderItem }: any) => {
     <>
       <div className="items-center justify-between py-4.5 px-7.5 hidden md:flex ">
         <div className="min-w-[113px]">
-          <p className="text-custom-sm text-dark">Order</p>
+          <p className="text-custom-sm text-dark">Pedido</p>
         </div>
         <div className="min-w-[113px]">
-          <p className="text-custom-sm text-dark">Date</p>
+          <p className="text-custom-sm text-dark">Fecha</p>
         </div>
 
         <div className="min-w-[113px]">
-          <p className="text-custom-sm text-dark">Status</p>
+          <p className="text-custom-sm text-dark">Estado</p>
         </div>
 
         {/* <div className="min-w-[113px]">
@@ -67,7 +67,7 @@ const OrderDetails = ({ orderItem }: any) => {
         </div>
       </div>
       <div className="px-7.5 w-full">
-        <p className="font-bold">Shipping Address:</p>{" "}
+        <p className="font-bold">Dirección:</p>{" "}
         <p>942 Aspen Road Encino, CA 91316</p>
       </div>
     </>

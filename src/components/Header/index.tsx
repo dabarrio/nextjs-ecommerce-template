@@ -37,7 +37,7 @@ const Header = () => {
   });
 
   const options = [
-    { label: "All Categories", value: "0" },
+    { label: "Categorías", value: "0" },
     { label: "Desktop", value: "1" },
     { label: "Laptop", value: "2" },
     { label: "Monitor", value: "3" },
@@ -85,7 +85,7 @@ const Header = () => {
                       type="search"
                       name="search"
                       id="search"
-                      placeholder="I am shopping for..."
+                      placeholder="Busca tu cosa favorita..."
                       autoComplete="off"
                       className="custom-search w-full rounded-r-[5px] bg-gray-1 !border-l-0 border border-gray-3 py-2.5 pl-4 pr-10 outline-none ease-in duration-200"
                     />
@@ -145,10 +145,10 @@ const Header = () => {
 
               <div>
                 <span className="block text-2xs text-dark-4 uppercase">
-                  24/7 SUPPORT
+                  Soporte 24/7
                 </span>
                 <p className="font-medium text-custom-sm text-dark">
-                  (+965) 7492-3477
+                  (+54) 223 123-4567
                 </p>
               </div>
             </div>
@@ -182,10 +182,10 @@ const Header = () => {
 
                   <div>
                     <span className="block text-2xs text-dark-4 uppercase">
-                      account
+                      Cuenta
                     </span>
                     <p className="font-medium text-custom-sm text-dark">
-                      Sign In
+                      Ingresar
                     </p>
                   </div>
                 </Link>
@@ -232,9 +232,7 @@ const Header = () => {
                   </span>
 
                   <div>
-                    <span className="block text-2xs text-dark-4 uppercase">
-                      cart
-                    </span>
+                    
                     <p className="font-medium text-custom-sm text-dark">
                       ${totalPrice}
                     </p>
@@ -332,7 +330,7 @@ const Header = () => {
             {/* // <!--=== Main Nav End ===--> */}
 
             {/* // <!--=== Nav Right Start ===--> */}
-            <div className="hidden xl:block">
+            {/* <div className="hidden xl:block">
               <ul className="flex items-center gap-5.5">
                 <li className="py-4">
                   <a
@@ -382,7 +380,7 @@ const Header = () => {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
             {/* <!--=== Nav Right End ===--> */}
           </div>
         </div>

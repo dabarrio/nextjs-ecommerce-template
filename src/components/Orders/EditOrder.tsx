@@ -20,7 +20,7 @@ const EditOrder = ({ order, toggleModal }: any) => {
 
   return (
     <div className="w-full px-10">
-      <p className="pb-2 font-medium text-dark">Order Status</p>
+      <p className="pb-2 font-medium text-dark">Estado del pedido</p>
       <div className="w-full">
         <select
           className="w-full rounded-[10px] border border-gray-3 bg-gray-1 text-dark py-3.5 px-5 text-custom-sm"
@@ -29,17 +29,17 @@ const EditOrder = ({ order, toggleModal }: any) => {
           required
           onChange={handleChanege}
         >
-          <option value="processing">Processing</option>
-          <option value="on-hold">On Hold</option>
-          <option value="delivered">Delivered</option>
-          <option value="cancelled">Cancelled</option>
+          <option value="processing">Procesando</option>
+          <option value="on-hold">En espera</option>
+          <option value="delivered">Entregado</option>
+          <option value="cancelled">Cancelado</option>
         </select>
 
         <button
           className="mt-5 w-full rounded-[10px] border border-blue-1 bg-blue-1 text-white py-3.5 px-5 text-custom-sm bg-blue"
           onClick={handleSubmit}
         >
-          Save Changes
+          Guardar cambios
         </button>
       </div>
     </div>

@@ -24,18 +24,18 @@ const Orders = () => {
           {ordersData.length > 0 && (
             <div className="items-center justify-between py-4.5 px-7.5 hidden md:flex ">
               <div className="min-w-[111px]">
-                <p className="text-custom-sm text-dark">Order</p>
+                <p className="text-custom-sm text-dark">N Pedido</p>
               </div>
               <div className="min-w-[175px]">
-                <p className="text-custom-sm text-dark">Date</p>
+                <p className="text-custom-sm text-dark">Fecha</p>
               </div>
 
               <div className="min-w-[128px]">
-                <p className="text-custom-sm text-dark">Status</p>
+                <p className="text-custom-sm text-dark">Estado</p>
               </div>
 
               <div className="min-w-[213px]">
-                <p className="text-custom-sm text-dark">Title</p>
+                <p className="text-custom-sm text-dark">Título</p>
               </div>
 
               <div className="min-w-[113px]">
@@ -43,7 +43,7 @@ const Orders = () => {
               </div>
 
               <div className="min-w-[113px]">
-                <p className="text-custom-sm text-dark">Action</p>
+                <p className="text-custom-sm text-dark">Acción</p>
               </div>
             </div>
           )}
@@ -53,7 +53,7 @@ const Orders = () => {
             ))
           ) : (
             <p className="py-9.5 px-4 sm:px-7.5 xl:px-10">
-              You don&apos;t have any orders!
+              No se han encontrado pedidos.
             </p>
           )}
         </div>

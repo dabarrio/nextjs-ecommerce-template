@@ -8,7 +8,7 @@ const CounDown = () => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const deadline = "December, 31, 2024";
+  const deadline = "December, 31, 2025";
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
@@ -32,15 +32,12 @@ const CounDown = () => {
         <div className="relative overflow-hidden z-1 rounded-lg bg-[#D0E9F3] p-4 sm:p-7.5 lg:p-10 xl:p-15">
           <div className="max-w-[422px] w-full">
             <span className="block font-medium text-custom-1 text-blue mb-2.5">
-              Don’t Miss!!
+              ¡No te lo pierdas!
             </span>
-
             <h2 className="font-bold text-dark text-xl lg:text-heading-4 xl:text-heading-3 mb-3">
-              Enhance Your Music Experience
+              Mejora tu experiencia musical
             </h2>
-
-            <p>The Havit H206d is a wired PC headphone.</p>
-
+            <p>El Havit H206d es un auricular para PC con cable.</p>
             {/* <!-- Countdown timer --> */}
             <div
               className="flex flex-wrap gap-6 mt-6"
@@ -57,10 +54,9 @@ const CounDown = () => {
                   {days < 10 ? "0" + days : days}{" "}
                 </span>
                 <span className="block text-custom-sm text-dark text-center">
-                  Days
+                  días
                 </span>
               </div>
-
               {/* <!-- timer hours --> */}
               <div>
                 <span
@@ -71,10 +67,9 @@ const CounDown = () => {
                   {hours < 10 ? "0" + hours : hours}{" "}
                 </span>
                 <span className="block text-custom-sm text-dark text-center">
-                  Hours
+                  horas
                 </span>
               </div>
-
               {/* <!-- timer minutes --> */}
               <div>
                 <span
@@ -84,10 +79,9 @@ const CounDown = () => {
                   {minutes < 10 ? "0" + minutes : minutes}{" "}
                 </span>
                 <span className="block text-custom-sm text-dark text-center">
-                  Minutes
+                  minutos
                 </span>
               </div>
-
               {/* <!-- timer seconds --> */}
               <div>
                 <span
@@ -102,7 +96,6 @@ const CounDown = () => {
               </div>
             </div>
             {/* <!-- Countdown timer ends --> */}
-
             <a
               href="#"
               className="inline-flex font-medium text-custom-sm text-white bg-blue py-3 px-9.5 rounded-md ease-out duration-200 hover:bg-blue-dark mt-7.5"
@@ -110,7 +103,6 @@ const CounDown = () => {
               Check it Out!
             </a>
           </div>
-
           {/* <!-- bg shapes --> */}
           <Image
             src="/images/countdown/countdown-bg.png"
